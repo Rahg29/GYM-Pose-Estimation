@@ -6,9 +6,9 @@ import cv2
 import numpy as np
 import imutils
 
-from server.helpers.estimator import TfPoseEstimator
-from server.helpers.networks import get_graph_path, model_wh
-from server.helpers.calculate_angle import calculate_angle
+from phormatics.server.helpers.estimator import TfPoseEstimator
+from phormatics.server.helpers.networks import get_graph_path, model_wh
+from phormatics.server.helpers.calculate_angle import calculate_angle
 
 from IPython.display import clear_output
 import time
