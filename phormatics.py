@@ -2,7 +2,6 @@ import final
 
 class Phormatic(object):
     
-    output = ''
     FILE_PATH = ''
     EXERCISE_TYPE = ''
     size = (240, 240)
@@ -13,6 +12,10 @@ class Phormatic(object):
     
     def run(self):
         output = final.run(self.FILE_PATH,self.EXERCISE_TYPE,self.size)
-
+    
+    def get_angle(point1,point2,point3):
+        return final.get_angle()
+        
+    
 ph = Phormatic('/home/bindadeepanshu/Notebooks/phormatics/vlc-record-2019-09-04-12h15m32s-87954.com.mp4-.mp4','pullup')
-output = ph.run()
+ph.run()
