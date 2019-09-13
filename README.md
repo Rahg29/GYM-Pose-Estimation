@@ -171,6 +171,10 @@ first install important libraries on your system
 **pip3 install tensorflow**
 FIrst clone the repository,
 **git clone https://github.com/jrobchin/phormatics.git**
+**git clone https://github.com/ildoonet/tf-pose-estimation.git**
+go to tf-pose estimation and run **python3setup.py install**
+
+****python dependency is less than 3.6****
 copy **final.py** and **phormatics.py**, inside new repo folder(phormatics)
 put the correct path of video in **phormatics.py**
 and run**python3 phormatics.py**
