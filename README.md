@@ -169,12 +169,9 @@ first install important libraries on your system
 **pip3 install imutils**
 
 **pip3 install tensorflow**
-To download weights, make a folder **model** and inside model, **cmu**, and run file 
-
-**bash download.sh**(This will install weights on your system)
-
-change path of video and excercise type in **phormatics.py**change path of video and excercise type in phormatics.py
-Once it has been setup
-
-just run **python3 phormatics.py**
+FIrst clone the repository,
+**git clone https://github.com/jrobchin/phormatics.git**
+copy **final.py** and **phormatics.py**, inside new repo folder(phormatics)
+put the correct path of video in **phormatics.py**
+and run**python3 phormatics.py**
 
